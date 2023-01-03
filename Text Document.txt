@@ -1,0 +1,1 @@
+Команда для установки Gulp: npm install --global gulp-cli

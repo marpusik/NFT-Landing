@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+/node_modules
+/dist
+package-lock.json
+=======
+/node_modules
+/dist
+package-lock.json
+>>>>>>> origin/main
