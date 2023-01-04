@@ -1,0 +1,38 @@
+.header__main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__link{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  position: relative;
+  transition: all .3s;
+  &:hover {
+    color: $yellow;
+    &:after {
+      display: block;
+    }
+  }
+  &:after {
+    content: "";
+    display: none;
+    background: $yellow;
+    height: 2px;
+    width: 74px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+.header__inner{
+  display: flex;
+  align-items: center;
+}
+.header__links{
+  display: flex;
+  align-items: center;
+  margin-right: 160px;
+}
